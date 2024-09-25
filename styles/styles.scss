@@ -20,6 +20,8 @@ body {
         border-radius: 10px;
         display: flex;
         background-color: $main_bg_color;
+        animation: zoomIn cubic-bezier(0.25, 0.8, 0.5, 1);
+        animation-duration: 1.5s;
 
         .image_area {
             width: 300px;
@@ -61,6 +63,8 @@ body {
                     color: $title_color;
                     font-weight: 700;
                     font-size: 30px;
+                    animation:  slideInRight cubic-bezier(0.25, 0.8, 0.5, 1);
+                    animation-duration: 2s;
                 }
             }
 
@@ -83,7 +87,7 @@ body {
                     font-family: $title_font_family;
                     color: $button_bg_color;
                     font-size: 30px;
-                    animation: tada cubic-bezier(0.25, 0.8, 0.5, 1);
+                    animation: tada cubic-bezier(0.25, 0.8, 0.5, 1) infinite;
                     animation-duration: 3s;
                 }
 
