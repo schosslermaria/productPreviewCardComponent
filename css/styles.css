@@ -43,6 +43,8 @@ body main .text_area .perfume {
   color: hsl(228, 12%, 48%);
   text-transform: uppercase;
   letter-spacing: 4px;
+  animation: fadeInRight cubic-bezier(0.25, 0.8, 0.5, 1);
+  animation-duration: 2s;
 }
 body main .text_area .title_container {
   display: flex;
@@ -74,6 +76,8 @@ body main .text_area .price_container .main_price {
   font-family: "Fraunces", sans-serif;
   color: hsl(158, 36%, 37%);
   font-size: 30px;
+  animation: tada cubic-bezier(0.25, 0.8, 0.5, 1);
+  animation-duration: 3s;
 }
 body main .text_area .price_container .discount_price {
   color: hsl(228, 12%, 48%);
@@ -90,7 +94,11 @@ body main .text_area .button {
   gap: 10px;
   color: hsl(0, 0%, 100%);
   border-radius: 10px;
+  animation: pulse cubic-bezier(0.25, 0.8, 0.5, 1) infinite;
+  animation-duration: 2s;
 }
 body main .text_area .button:hover {
   background-color: hsl(158, 36%, 18%);
+  animation: pulse cubic-bezier(0.25, 0.8, 0.5, 1) infinite;
+  animation-duration: 2s;
 }/*# sourceMappingURL=styles.css.map */

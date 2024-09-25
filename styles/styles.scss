@@ -45,6 +45,9 @@ body {
                 color: $p_color;
                 text-transform: uppercase;
                 letter-spacing: 4px;
+                animation: fadeInRight cubic-bezier(0.25, 0.8, 0.5, 1);
+                animation-duration: 2s;
+                
             }
 
             .title_container {
@@ -80,6 +83,8 @@ body {
                     font-family: $title_font_family;
                     color: $button_bg_color;
                     font-size: 30px;
+                    animation: tada cubic-bezier(0.25, 0.8, 0.5, 1);
+                    animation-duration: 3s;
                 }
 
                 .discount_price {
@@ -99,9 +104,14 @@ body {
                 gap: 10px;
                 color: $button_p_color;
                 border-radius: 10px;
+                animation: pulse cubic-bezier(0.25, 0.8, 0.5, 1) infinite;
+                animation-duration: 2s;
 
                 &:hover {
                     background-color: $button_hover_bg_color;
+
+                    animation: pulse cubic-bezier(0.25, 0.8, 0.5, 1) infinite;
+                    animation-duration: 2s;
                 }
             }
         }
