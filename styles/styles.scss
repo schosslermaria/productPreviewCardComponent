@@ -48,7 +48,7 @@ body {
                 text-transform: uppercase;
                 letter-spacing: 4px;
                 animation: fadeInRight cubic-bezier(0.25, 0.8, 0.5, 1);
-                animation-duration: 2s;
+                animation-duration: 1.5s;
                 
             }
 
@@ -63,7 +63,7 @@ body {
                     color: $title_color;
                     font-weight: 700;
                     font-size: 30px;
-                    animation:  slideInRight cubic-bezier(0.25, 0.8, 0.5, 1);
+                    animation: fadeInRight cubic-bezier(0.25, 0.8, 0.5, 1);
                     animation-duration: 2s;
                 }
             }
@@ -114,8 +114,8 @@ body {
                 &:hover {
                     background-color: $button_hover_bg_color;
 
-                    animation: pulse cubic-bezier(0.25, 0.8, 0.5, 1) infinite;
-                    animation-duration: 2s;
+                    animation: flash cubic-bezier(0.25, 0.8, 0.5, 1) infinite;
+                    animation-duration: 1s;
                 }
             }
         }
